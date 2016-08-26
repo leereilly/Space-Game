@@ -18,11 +18,11 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
         Vector2 v = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        pointingLeft = v.x < 0;
-
         anim.SetBool("isWalking", v != Vector2.zero);
 
-        if (pointingLeft != anim.GetBool("pointingLeft"))
+        pointingLeft = v.x < 0;
+        
+        if (pointingLeft != anim.GetBool("pointingLeft") && v.x != 0)
         {
             anim.SetBool("pointingLeft", pointingLeft);
             rigidBody.transform.Rotate(0, 180, 0);
