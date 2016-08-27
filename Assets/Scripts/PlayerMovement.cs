@@ -7,12 +7,16 @@ public class PlayerMovement : MonoBehaviour {
     private Animator anim;
     private bool pointingLeft = false;
 
+    [SerializeField]
+    public Transform StartPosition;
+
 
 	// Use this for initialization
 	void Start () {
         rigidBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-	}
+        rigidBody.transform.position = StartPosition.position;
+    }
 
     /// <summary>
     /// Update() will determine the vector that the controller input is indicating the
