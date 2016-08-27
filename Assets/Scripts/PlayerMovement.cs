@@ -13,21 +13,18 @@ public class PlayerMovement : MonoBehaviour {
         rigidBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    /// <summary>
+    /// Update() will determine the vector that the controller input is indicating the
+    /// player should be moving, and try to move the player accordingly
+    /// 
+    /// Called every frame.
+    /// </summary>
+    void Update () {
+        
         Vector2 v = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        pointingLeft = v.x < 0;
-
         anim.SetBool("isWalking", v != Vector2.zero);
-
-        if (pointingLeft != anim.GetBool("pointingLeft"))
-        {
-            anim.SetBool("pointingLeft", pointingLeft);
-            rigidBody.transform.Rotate(0, 180, 0);
-        }
-
 
         if (v != Vector2.zero)
         {
