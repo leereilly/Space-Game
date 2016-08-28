@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(Rigidbody2D)), RequireComponent(typeof(Animator)), RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(Rigidbody2D)), RequireComponent(typeof(Animator)), RequireComponent(typeof(BoxCollider2D)), RequireComponent(typeof(Player))]
 public class PlayerMovement : MonoBehaviour {
 
     private Rigidbody2D rigidBody;
     private Animator anim;
     private bool pointingLeft = false;
+    private Player _player;
 
     [SerializeField]
     public Transform StartPosition;
-
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour {
         rigidBody.freezeRotation = true;
         anim = GetComponent<Animator>();
         rigidBody.transform.position = StartPosition.position;
+        _player = GetComponent<Player>();
     }
 
     /// <summary>
@@ -28,6 +29,11 @@ public class PlayerMovement : MonoBehaviour {
     /// Called every frame.
     /// </summary>
     void Update () {
+
+        if (anim.GetBool("isDead"))
+        {
+            return;
+        }
         
         Vector2 v = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
@@ -41,4 +47,17 @@ public class PlayerMovement : MonoBehaviour {
 
         rigidBody.MovePosition(rigidBody.position + v * Time.deltaTime);
 	}
+
+    public Animator Animator
+    {
+        get
+        {
+            return anim;
+        }
+
+        set
+        {
+            anim = value;
+        }
+    }
 }
