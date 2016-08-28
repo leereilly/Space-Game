@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(Rigidbody2D)), RequireComponent(typeof(Animator)), RequireComponent(typeof(BoxCollider2D))]
 public class PlayerMovement : MonoBehaviour {
 
     private Rigidbody2D rigidBody;
@@ -14,6 +15,8 @@ public class PlayerMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         rigidBody = GetComponent<Rigidbody2D>();
+        rigidBody.gravityScale = 0;
+        rigidBody.freezeRotation = true;
         anim = GetComponent<Animator>();
         rigidBody.transform.position = StartPosition.position;
     }
