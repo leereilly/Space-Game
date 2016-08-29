@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 
 public class EyeballMovement : MonoBehaviour {
@@ -26,6 +25,8 @@ public class EyeballMovement : MonoBehaviour {
         if (v != Vector2.zero)
         {
             anim.SetBool("iswalking", true);
+            anim.SetFloat("input_x", v.x);
+            anim.SetFloat("input_y", v.y);
         } else
         {
             anim.SetBool("iswalking", false);
