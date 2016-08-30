@@ -201,7 +201,7 @@ public class EyeballMovement : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D c)
     {
-        //_framesToWalk++;
+        //_framesToWalk++; //
         flipMyState();
     }
 
