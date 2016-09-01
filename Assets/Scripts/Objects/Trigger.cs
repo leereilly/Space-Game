@@ -23,7 +23,7 @@ public class Trigger : MonoBehaviour, ITouchable {
             Player p = obj.GetComponent<Player>();
             if (p!= null)
             {
-                p.Kill();
+                p.toggleNakedness();
             }
         }
         

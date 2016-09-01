@@ -1,187 +1,187 @@
 fileFormatVersion: 2
-guid: f243ea71330e86548afd67063785da8f
-timeCreated: 1472247171
+guid: 1fe6050809867864297e3f4a9abb290e
+timeCreated: 1472698744
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BizMan_0
-    21300002: BizMan_1
-    21300004: BizMan_2
-    21300006: BizMan_3
-    21300008: BizMan_4
-    21300010: BizMan_5
-    21300012: BizMan_6
-    21300014: BizMan_7
-    21300016: BizMan_8
-    21300018: BizMan_9
-    21300020: BizMan_10
-    21300022: BizMan_11
-    21300024: BizMan_12
-    21300026: BizMan_13
-    21300028: BizMan_14
-    21300030: BizMan_15
-    21300032: BizMan_16
-    21300034: BizMan_17
-    21300036: BizMan_18
-    21300038: BizMan_19
-    21300040: BizMan_20
-    21300042: BizMan_21
-    21300044: BizMan_22
-    21300046: BizMan_23
-    21300048: BizMan_24
-    21300050: BizMan_25
-    21300052: BizMan_26
-    21300054: BizMan_27
-    21300056: BizMan_28
-    21300058: BizMan_29
-    21300060: BizMan_30
-    21300062: BizMan_31
-    21300064: BizMan_32
-    21300066: BizMan_33
-    21300068: BizMan_34
-    21300070: BizMan_35
-    21300072: BizMan_36
-    21300074: BizMan_37
-    21300076: BizMan_38
-    21300078: BizMan_39
-    21300080: BizMan_40
-    21300082: BizMan_41
-    21300084: BizMan_42
-    21300086: BizMan_43
-    21300088: BizMan_44
-    21300090: BizMan_45
-    21300092: BizMan_46
-    21300094: BizMan_47
-    21300096: BizMan_48
-    21300098: BizMan_49
-    21300100: BizMan_50
-    21300102: BizMan_51
-    21300104: BizMan_52
-    21300106: BizMan_53
-    21300108: BizMan_54
-    21300110: BizMan_55
-    21300112: BizMan_56
-    21300114: BizMan_57
-    21300116: BizMan_58
-    21300118: BizMan_59
-    21300120: BizMan_60
-    21300122: BizMan_61
-    21300124: BizMan_62
-    21300126: BizMan_63
-    21300128: BizMan_64
-    21300130: BizMan_65
-    21300132: BizMan_66
-    21300134: BizMan_67
-    21300136: BizMan_68
-    21300138: BizMan_69
-    21300140: BizMan_70
-    21300142: BizMan_71
-    21300144: BizMan_72
-    21300146: BizMan_73
-    21300148: BizMan_74
-    21300150: BizMan_75
-    21300152: BizMan_76
-    21300154: BizMan_77
-    21300156: BizMan_78
-    21300158: BizMan_79
-    21300160: BizMan_80
-    21300162: BizMan_81
-    21300164: BizMan_82
-    21300166: BizMan_83
-    21300168: BizMan_84
-    21300170: BizMan_85
-    21300172: BizMan_86
-    21300174: BizMan_87
-    21300176: BizMan_88
-    21300178: BizMan_89
-    21300180: BizMan_90
-    21300182: BizMan_91
-    21300184: BizMan_92
-    21300186: BizMan_93
-    21300188: BizMan_94
-    21300190: BizMan_95
-    21300192: BizMan_96
-    21300194: BizMan_97
-    21300196: BizMan_98
-    21300198: BizMan_99
-    21300200: BizMan_100
-    21300202: BizMan_101
-    21300204: BizMan_102
-    21300206: BizMan_103
-    21300208: BizMan_104
-    21300210: BizMan_105
-    21300212: BizMan_106
-    21300214: BizMan_107
-    21300216: BizMan_108
-    21300218: BizMan_109
-    21300220: BizMan_110
-    21300222: BizMan_111
-    21300224: BizMan_112
-    21300226: BizMan_113
-    21300228: BizMan_114
-    21300230: BizMan_115
-    21300232: BizMan_116
-    21300234: BizMan_117
-    21300236: BizMan_118
-    21300238: BizMan_119
-    21300240: BizMan_120
-    21300242: BizMan_121
-    21300244: BizMan_122
-    21300246: BizMan_123
-    21300248: BizMan_124
-    21300250: BizMan_125
-    21300252: BizMan_126
-    21300254: BizMan_127
-    21300256: BizMan_128
-    21300258: BizMan_129
-    21300260: BizMan_130
-    21300262: BizMan_131
-    21300264: BizMan_132
-    21300266: BizMan_133
-    21300268: BizMan_134
-    21300270: BizMan_135
-    21300272: BizMan_136
-    21300274: BizMan_137
-    21300276: BizMan_138
-    21300278: BizMan_139
-    21300280: BizMan_140
-    21300282: BizMan_141
-    21300284: BizMan_142
-    21300286: BizMan_143
-    21300288: BizMan_144
-    21300290: BizMan_145
-    21300292: BizMan_146
-    21300294: BizMan_147
-    21300296: BizMan_148
-    21300298: BizMan_149
-    21300300: BizMan_150
-    21300302: BizMan_151
-    21300304: BizMan_152
-    21300306: BizMan_153
-    21300308: BizMan_154
-    21300310: BizMan_155
-    21300312: BizMan_156
-    21300314: BizMan_157
-    21300316: BizMan_158
-    21300318: BizMan_159
-    21300320: BizMan_160
-    21300322: BizMan_161
-    21300324: BizMan_162
-    21300326: BizMan_163
-    21300328: BizMan_164
-    21300330: BizMan_165
-    21300332: BizMan_166
-    21300334: BizMan_167
-    21300336: BizMan_168
-    21300338: BizMan_169
-    21300340: BizMan_170
-    21300342: BizMan_171
-    21300344: BizMan_172
-    21300346: BizMan_173
-    21300348: BizMan_174
-    21300350: BizMan_175
-    21300352: BizMan_176
-    21300354: BizMan_177
+    21300000: Naked_0
+    21300002: Naked_1
+    21300004: Naked_2
+    21300006: Naked_3
+    21300008: Naked_4
+    21300010: Naked_5
+    21300012: Naked_6
+    21300014: Naked_7
+    21300016: Naked_8
+    21300018: Naked_9
+    21300020: Naked_10
+    21300022: Naked_11
+    21300024: Naked_12
+    21300026: Naked_13
+    21300028: Naked_14
+    21300030: Naked_15
+    21300032: Naked_16
+    21300034: Naked_17
+    21300036: Naked_18
+    21300038: Naked_19
+    21300040: Naked_20
+    21300042: Naked_21
+    21300044: Naked_22
+    21300046: Naked_23
+    21300048: Naked_24
+    21300050: Naked_25
+    21300052: Naked_26
+    21300054: Naked_27
+    21300056: Naked_28
+    21300058: Naked_29
+    21300060: Naked_30
+    21300062: Naked_31
+    21300064: Naked_32
+    21300066: Naked_33
+    21300068: Naked_34
+    21300070: Naked_35
+    21300072: Naked_36
+    21300074: Naked_37
+    21300076: Naked_38
+    21300078: Naked_39
+    21300080: Naked_40
+    21300082: Naked_41
+    21300084: Naked_42
+    21300086: Naked_43
+    21300088: Naked_44
+    21300090: Naked_45
+    21300092: Naked_46
+    21300094: Naked_47
+    21300096: Naked_48
+    21300098: Naked_49
+    21300100: Naked_50
+    21300102: Naked_51
+    21300104: Naked_52
+    21300106: Naked_53
+    21300108: Naked_54
+    21300110: Naked_55
+    21300112: Naked_56
+    21300114: Naked_57
+    21300116: Naked_58
+    21300118: Naked_59
+    21300120: idleUp
+    21300122: walkUp0
+    21300124: walkUp1
+    21300126: walkUp2
+    21300128: walkUp3
+    21300130: walkUp4
+    21300132: walkUp5
+    21300134: walkUp6
+    21300136: walkUp7
+    21300138: idleLeft
+    21300140: walkLeft0
+    21300142: walkLeft1
+    21300144: walkLeft2
+    21300146: walkLeft3
+    21300148: walkLeft4
+    21300150: walkLeft5
+    21300152: walkLeft6
+    21300154: walkLeft7
+    21300156: idleDown
+    21300158: walkDown0
+    21300160: walkDown1
+    21300162: walkDown2
+    21300164: walkDown3
+    21300166: walkDown4
+    21300168: walkDown5
+    21300170: walkDown6
+    21300172: walkDown7
+    21300174: idleRight
+    21300176: walkRight0
+    21300178: walkRight1
+    21300180: walkRight2
+    21300182: walkRight3
+    21300184: walkRight4
+    21300186: walkRight5
+    21300188: walkRight6
+    21300190: walkRight7
+    21300192: Naked_96
+    21300194: Naked_97
+    21300196: Naked_98
+    21300198: Naked_99
+    21300200: Naked_100
+    21300202: Naked_101
+    21300204: Naked_102
+    21300206: Naked_103
+    21300208: Naked_104
+    21300210: Naked_105
+    21300212: Naked_106
+    21300214: Naked_107
+    21300216: Naked_108
+    21300218: Naked_109
+    21300220: Naked_110
+    21300222: Naked_111
+    21300224: Naked_112
+    21300226: Naked_113
+    21300228: Naked_114
+    21300230: Naked_115
+    21300232: Naked_116
+    21300234: Naked_117
+    21300236: Naked_118
+    21300238: Naked_119
+    21300240: Naked_120
+    21300242: Naked_121
+    21300244: Naked_122
+    21300246: Naked_123
+    21300248: Naked_124
+    21300250: Naked_125
+    21300252: Naked_126
+    21300254: Naked_127
+    21300256: Naked_128
+    21300258: Naked_129
+    21300260: Naked_130
+    21300262: Naked_131
+    21300264: Naked_132
+    21300266: Naked_133
+    21300268: Naked_134
+    21300270: Naked_135
+    21300272: Naked_136
+    21300274: Naked_137
+    21300276: Naked_138
+    21300278: Naked_139
+    21300280: Naked_140
+    21300282: Naked_141
+    21300284: Naked_142
+    21300286: Naked_143
+    21300288: Naked_144
+    21300290: Naked_145
+    21300292: Naked_146
+    21300294: Naked_147
+    21300296: Naked_148
+    21300298: Naked_149
+    21300300: Naked_150
+    21300302: Naked_151
+    21300304: Naked_152
+    21300306: Naked_153
+    21300308: Naked_154
+    21300310: Naked_155
+    21300312: Naked_156
+    21300314: Naked_157
+    21300316: Naked_158
+    21300318: Naked_159
+    21300320: Naked_160
+    21300322: Naked_161
+    21300324: Naked_162
+    21300326: Naked_163
+    21300328: Naked_164
+    21300330: Naked_165
+    21300332: Naked_166
+    21300334: Naked_167
+    21300336: Naked_168
+    21300338: Naked_169
+    21300340: Naked_170
+    21300342: Naked_171
+    21300344: Naked_172
+    21300346: Naked_173
+    21300348: Naked_174
+    21300350: Naked_175
+    21300352: Naked_176
+    21300354: Naked_177
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -231,7 +231,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BizMan_0
+      name: Naked_0
       rect:
         serializedVersion: 2
         x: 0
@@ -239,12 +239,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_1
+      name: Naked_1
       rect:
         serializedVersion: 2
         x: 64
@@ -252,12 +252,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_2
+      name: Naked_2
       rect:
         serializedVersion: 2
         x: 128
@@ -265,12 +265,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_3
+      name: Naked_3
       rect:
         serializedVersion: 2
         x: 192
@@ -278,12 +278,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_4
+      name: Naked_4
       rect:
         serializedVersion: 2
         x: 256
@@ -291,12 +291,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_5
+      name: Naked_5
       rect:
         serializedVersion: 2
         x: 320
@@ -304,12 +304,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_6
+      name: Naked_6
       rect:
         serializedVersion: 2
         x: 384
@@ -317,12 +317,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_7
+      name: Naked_7
       rect:
         serializedVersion: 2
         x: 0
@@ -330,12 +330,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_8
+      name: Naked_8
       rect:
         serializedVersion: 2
         x: 64
@@ -343,12 +343,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_9
+      name: Naked_9
       rect:
         serializedVersion: 2
         x: 128
@@ -356,12 +356,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_10
+      name: Naked_10
       rect:
         serializedVersion: 2
         x: 192
@@ -369,12 +369,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_11
+      name: Naked_11
       rect:
         serializedVersion: 2
         x: 256
@@ -382,12 +382,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_12
+      name: Naked_12
       rect:
         serializedVersion: 2
         x: 320
@@ -395,12 +395,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_13
+      name: Naked_13
       rect:
         serializedVersion: 2
         x: 384
@@ -408,12 +408,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_14
+      name: Naked_14
       rect:
         serializedVersion: 2
         x: 0
@@ -421,12 +421,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_15
+      name: Naked_15
       rect:
         serializedVersion: 2
         x: 64
@@ -434,12 +434,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_16
+      name: Naked_16
       rect:
         serializedVersion: 2
         x: 128
@@ -447,12 +447,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_17
+      name: Naked_17
       rect:
         serializedVersion: 2
         x: 192
@@ -460,12 +460,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_18
+      name: Naked_18
       rect:
         serializedVersion: 2
         x: 256
@@ -473,12 +473,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_19
+      name: Naked_19
       rect:
         serializedVersion: 2
         x: 320
@@ -486,12 +486,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_20
+      name: Naked_20
       rect:
         serializedVersion: 2
         x: 384
@@ -499,12 +499,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_21
+      name: Naked_21
       rect:
         serializedVersion: 2
         x: 0
@@ -512,12 +512,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_22
+      name: Naked_22
       rect:
         serializedVersion: 2
         x: 64
@@ -525,12 +525,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_23
+      name: Naked_23
       rect:
         serializedVersion: 2
         x: 128
@@ -538,12 +538,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_24
+      name: Naked_24
       rect:
         serializedVersion: 2
         x: 192
@@ -551,12 +551,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_25
+      name: Naked_25
       rect:
         serializedVersion: 2
         x: 256
@@ -564,12 +564,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_26
+      name: Naked_26
       rect:
         serializedVersion: 2
         x: 320
@@ -577,12 +577,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_27
+      name: Naked_27
       rect:
         serializedVersion: 2
         x: 384
@@ -590,12 +590,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_28
+      name: Naked_28
       rect:
         serializedVersion: 2
         x: 0
@@ -603,12 +603,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_29
+      name: Naked_29
       rect:
         serializedVersion: 2
         x: 64
@@ -616,12 +616,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_30
+      name: Naked_30
       rect:
         serializedVersion: 2
         x: 128
@@ -629,12 +629,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_31
+      name: Naked_31
       rect:
         serializedVersion: 2
         x: 192
@@ -642,12 +642,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_32
+      name: Naked_32
       rect:
         serializedVersion: 2
         x: 256
@@ -655,12 +655,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_33
+      name: Naked_33
       rect:
         serializedVersion: 2
         x: 320
@@ -668,12 +668,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_34
+      name: Naked_34
       rect:
         serializedVersion: 2
         x: 384
@@ -681,12 +681,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_35
+      name: Naked_35
       rect:
         serializedVersion: 2
         x: 448
@@ -694,12 +694,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_36
+      name: Naked_36
       rect:
         serializedVersion: 2
         x: 0
@@ -707,12 +707,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_37
+      name: Naked_37
       rect:
         serializedVersion: 2
         x: 64
@@ -720,12 +720,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_38
+      name: Naked_38
       rect:
         serializedVersion: 2
         x: 128
@@ -733,12 +733,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_39
+      name: Naked_39
       rect:
         serializedVersion: 2
         x: 192
@@ -746,12 +746,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_40
+      name: Naked_40
       rect:
         serializedVersion: 2
         x: 256
@@ -759,12 +759,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_41
+      name: Naked_41
       rect:
         serializedVersion: 2
         x: 320
@@ -772,12 +772,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_42
+      name: Naked_42
       rect:
         serializedVersion: 2
         x: 384
@@ -785,12 +785,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_43
+      name: Naked_43
       rect:
         serializedVersion: 2
         x: 448
@@ -798,12 +798,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_44
+      name: Naked_44
       rect:
         serializedVersion: 2
         x: 0
@@ -811,12 +811,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_45
+      name: Naked_45
       rect:
         serializedVersion: 2
         x: 64
@@ -824,12 +824,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_46
+      name: Naked_46
       rect:
         serializedVersion: 2
         x: 128
@@ -837,12 +837,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_47
+      name: Naked_47
       rect:
         serializedVersion: 2
         x: 192
@@ -850,12 +850,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_48
+      name: Naked_48
       rect:
         serializedVersion: 2
         x: 256
@@ -863,12 +863,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_49
+      name: Naked_49
       rect:
         serializedVersion: 2
         x: 320
@@ -876,12 +876,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_50
+      name: Naked_50
       rect:
         serializedVersion: 2
         x: 384
@@ -889,12 +889,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_51
+      name: Naked_51
       rect:
         serializedVersion: 2
         x: 448
@@ -902,12 +902,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_52
+      name: Naked_52
       rect:
         serializedVersion: 2
         x: 0
@@ -915,12 +915,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_53
+      name: Naked_53
       rect:
         serializedVersion: 2
         x: 64
@@ -928,12 +928,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_54
+      name: Naked_54
       rect:
         serializedVersion: 2
         x: 128
@@ -941,12 +941,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_55
+      name: Naked_55
       rect:
         serializedVersion: 2
         x: 192
@@ -954,12 +954,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_56
+      name: Naked_56
       rect:
         serializedVersion: 2
         x: 256
@@ -967,12 +967,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_57
+      name: Naked_57
       rect:
         serializedVersion: 2
         x: 320
@@ -980,12 +980,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_58
+      name: Naked_58
       rect:
         serializedVersion: 2
         x: 384
@@ -993,12 +993,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_59
+      name: Naked_59
       rect:
         serializedVersion: 2
         x: 448
@@ -1006,12 +1006,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_60
+      name: idleUp
       rect:
         serializedVersion: 2
         x: 0
@@ -1019,12 +1019,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_61
+      name: walkUp0
       rect:
         serializedVersion: 2
         x: 64
@@ -1032,12 +1032,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_62
+      name: walkUp1
       rect:
         serializedVersion: 2
         x: 128
@@ -1045,12 +1045,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_63
+      name: walkUp2
       rect:
         serializedVersion: 2
         x: 192
@@ -1058,12 +1058,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_64
+      name: walkUp3
       rect:
         serializedVersion: 2
         x: 256
@@ -1071,12 +1071,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_65
+      name: walkUp4
       rect:
         serializedVersion: 2
         x: 320
@@ -1084,12 +1084,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_66
+      name: walkUp5
       rect:
         serializedVersion: 2
         x: 384
@@ -1097,12 +1097,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_67
+      name: walkUp6
       rect:
         serializedVersion: 2
         x: 448
@@ -1110,12 +1110,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_68
+      name: walkUp7
       rect:
         serializedVersion: 2
         x: 512
@@ -1123,12 +1123,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_69
+      name: idleLeft
       rect:
         serializedVersion: 2
         x: 0
@@ -1136,12 +1136,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_70
+      name: walkLeft0
       rect:
         serializedVersion: 2
         x: 64
@@ -1149,12 +1149,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_71
+      name: walkLeft1
       rect:
         serializedVersion: 2
         x: 128
@@ -1162,12 +1162,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_72
+      name: walkLeft2
       rect:
         serializedVersion: 2
         x: 192
@@ -1175,12 +1175,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_73
+      name: walkLeft3
       rect:
         serializedVersion: 2
         x: 256
@@ -1188,12 +1188,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_74
+      name: walkLeft4
       rect:
         serializedVersion: 2
         x: 320
@@ -1201,12 +1201,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_75
+      name: walkLeft5
       rect:
         serializedVersion: 2
         x: 384
@@ -1214,12 +1214,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_76
+      name: walkLeft6
       rect:
         serializedVersion: 2
         x: 448
@@ -1227,12 +1227,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_77
+      name: walkLeft7
       rect:
         serializedVersion: 2
         x: 512
@@ -1240,12 +1240,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_78
+      name: idleDown
       rect:
         serializedVersion: 2
         x: 0
@@ -1253,12 +1253,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_79
+      name: walkDown0
       rect:
         serializedVersion: 2
         x: 64
@@ -1266,12 +1266,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_80
+      name: walkDown1
       rect:
         serializedVersion: 2
         x: 128
@@ -1279,12 +1279,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_81
+      name: walkDown2
       rect:
         serializedVersion: 2
         x: 192
@@ -1292,12 +1292,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_82
+      name: walkDown3
       rect:
         serializedVersion: 2
         x: 256
@@ -1305,12 +1305,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_83
+      name: walkDown4
       rect:
         serializedVersion: 2
         x: 320
@@ -1318,12 +1318,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_84
+      name: walkDown5
       rect:
         serializedVersion: 2
         x: 384
@@ -1331,12 +1331,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_85
+      name: walkDown6
       rect:
         serializedVersion: 2
         x: 448
@@ -1344,12 +1344,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_86
+      name: walkDown7
       rect:
         serializedVersion: 2
         x: 512
@@ -1357,12 +1357,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_87
+      name: idleRight
       rect:
         serializedVersion: 2
         x: 0
@@ -1370,12 +1370,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_88
+      name: walkRight0
       rect:
         serializedVersion: 2
         x: 64
@@ -1383,12 +1383,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_89
+      name: walkRight1
       rect:
         serializedVersion: 2
         x: 128
@@ -1396,12 +1396,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_90
+      name: walkRight2
       rect:
         serializedVersion: 2
         x: 192
@@ -1409,12 +1409,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_91
+      name: walkRight3
       rect:
         serializedVersion: 2
         x: 256
@@ -1422,12 +1422,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_92
+      name: walkRight4
       rect:
         serializedVersion: 2
         x: 320
@@ -1435,12 +1435,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_93
+      name: walkRight5
       rect:
         serializedVersion: 2
         x: 384
@@ -1448,12 +1448,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_94
+      name: walkRight6
       rect:
         serializedVersion: 2
         x: 448
@@ -1461,12 +1461,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_95
+      name: walkRight7
       rect:
         serializedVersion: 2
         x: 512
@@ -1474,12 +1474,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_96
+      name: Naked_96
       rect:
         serializedVersion: 2
         x: 0
@@ -1487,12 +1487,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_97
+      name: Naked_97
       rect:
         serializedVersion: 2
         x: 64
@@ -1500,12 +1500,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_98
+      name: Naked_98
       rect:
         serializedVersion: 2
         x: 128
@@ -1513,12 +1513,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_99
+      name: Naked_99
       rect:
         serializedVersion: 2
         x: 192
@@ -1526,12 +1526,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_100
+      name: Naked_100
       rect:
         serializedVersion: 2
         x: 256
@@ -1539,12 +1539,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_101
+      name: Naked_101
       rect:
         serializedVersion: 2
         x: 320
@@ -1552,12 +1552,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_102
+      name: Naked_102
       rect:
         serializedVersion: 2
         x: 0
@@ -1565,12 +1565,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_103
+      name: Naked_103
       rect:
         serializedVersion: 2
         x: 64
@@ -1578,12 +1578,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_104
+      name: Naked_104
       rect:
         serializedVersion: 2
         x: 128
@@ -1591,12 +1591,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_105
+      name: Naked_105
       rect:
         serializedVersion: 2
         x: 192
@@ -1604,12 +1604,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_106
+      name: Naked_106
       rect:
         serializedVersion: 2
         x: 256
@@ -1617,12 +1617,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_107
+      name: Naked_107
       rect:
         serializedVersion: 2
         x: 320
@@ -1630,12 +1630,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_108
+      name: Naked_108
       rect:
         serializedVersion: 2
         x: 0
@@ -1643,12 +1643,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_109
+      name: Naked_109
       rect:
         serializedVersion: 2
         x: 64
@@ -1656,12 +1656,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_110
+      name: Naked_110
       rect:
         serializedVersion: 2
         x: 128
@@ -1669,12 +1669,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_111
+      name: Naked_111
       rect:
         serializedVersion: 2
         x: 192
@@ -1682,12 +1682,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_112
+      name: Naked_112
       rect:
         serializedVersion: 2
         x: 256
@@ -1695,12 +1695,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_113
+      name: Naked_113
       rect:
         serializedVersion: 2
         x: 320
@@ -1713,7 +1713,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_114
+      name: Naked_114
       rect:
         serializedVersion: 2
         x: 0
@@ -1721,12 +1721,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_115
+      name: Naked_115
       rect:
         serializedVersion: 2
         x: 64
@@ -1734,12 +1734,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_116
+      name: Naked_116
       rect:
         serializedVersion: 2
         x: 128
@@ -1747,12 +1747,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_117
+      name: Naked_117
       rect:
         serializedVersion: 2
         x: 192
@@ -1760,12 +1760,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_118
+      name: Naked_118
       rect:
         serializedVersion: 2
         x: 256
@@ -1773,12 +1773,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_119
+      name: Naked_119
       rect:
         serializedVersion: 2
         x: 320
@@ -1786,12 +1786,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_120
+      name: Naked_120
       rect:
         serializedVersion: 2
         x: 0
@@ -1799,12 +1799,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_121
+      name: Naked_121
       rect:
         serializedVersion: 2
         x: 64
@@ -1812,12 +1812,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_122
+      name: Naked_122
       rect:
         serializedVersion: 2
         x: 128
@@ -1825,12 +1825,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_123
+      name: Naked_123
       rect:
         serializedVersion: 2
         x: 192
@@ -1838,12 +1838,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_124
+      name: Naked_124
       rect:
         serializedVersion: 2
         x: 256
@@ -1851,12 +1851,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_125
+      name: Naked_125
       rect:
         serializedVersion: 2
         x: 320
@@ -1864,12 +1864,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_126
+      name: Naked_126
       rect:
         serializedVersion: 2
         x: 384
@@ -1877,12 +1877,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_127
+      name: Naked_127
       rect:
         serializedVersion: 2
         x: 448
@@ -1890,12 +1890,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_128
+      name: Naked_128
       rect:
         serializedVersion: 2
         x: 512
@@ -1903,12 +1903,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_129
+      name: Naked_129
       rect:
         serializedVersion: 2
         x: 576
@@ -1916,12 +1916,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_130
+      name: Naked_130
       rect:
         serializedVersion: 2
         x: 640
@@ -1929,12 +1929,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_131
+      name: Naked_131
       rect:
         serializedVersion: 2
         x: 704
@@ -1942,12 +1942,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_132
+      name: Naked_132
       rect:
         serializedVersion: 2
         x: 768
@@ -1955,12 +1955,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_133
+      name: Naked_133
       rect:
         serializedVersion: 2
         x: 0
@@ -1968,12 +1968,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_134
+      name: Naked_134
       rect:
         serializedVersion: 2
         x: 64
@@ -1981,12 +1981,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_135
+      name: Naked_135
       rect:
         serializedVersion: 2
         x: 128
@@ -1994,12 +1994,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_136
+      name: Naked_136
       rect:
         serializedVersion: 2
         x: 192
@@ -2007,12 +2007,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_137
+      name: Naked_137
       rect:
         serializedVersion: 2
         x: 256
@@ -2020,12 +2020,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_138
+      name: Naked_138
       rect:
         serializedVersion: 2
         x: 320
@@ -2033,12 +2033,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_139
+      name: Naked_139
       rect:
         serializedVersion: 2
         x: 384
@@ -2046,12 +2046,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_140
+      name: Naked_140
       rect:
         serializedVersion: 2
         x: 448
@@ -2059,12 +2059,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_141
+      name: Naked_141
       rect:
         serializedVersion: 2
         x: 512
@@ -2072,12 +2072,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_142
+      name: Naked_142
       rect:
         serializedVersion: 2
         x: 576
@@ -2085,12 +2085,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_143
+      name: Naked_143
       rect:
         serializedVersion: 2
         x: 640
@@ -2098,12 +2098,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_144
+      name: Naked_144
       rect:
         serializedVersion: 2
         x: 704
@@ -2111,12 +2111,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_145
+      name: Naked_145
       rect:
         serializedVersion: 2
         x: 768
@@ -2124,12 +2124,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_146
+      name: Naked_146
       rect:
         serializedVersion: 2
         x: 0
@@ -2137,12 +2137,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_147
+      name: Naked_147
       rect:
         serializedVersion: 2
         x: 64
@@ -2150,12 +2150,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_148
+      name: Naked_148
       rect:
         serializedVersion: 2
         x: 128
@@ -2163,12 +2163,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_149
+      name: Naked_149
       rect:
         serializedVersion: 2
         x: 192
@@ -2176,12 +2176,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_150
+      name: Naked_150
       rect:
         serializedVersion: 2
         x: 256
@@ -2189,12 +2189,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_151
+      name: Naked_151
       rect:
         serializedVersion: 2
         x: 320
@@ -2202,12 +2202,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_152
+      name: Naked_152
       rect:
         serializedVersion: 2
         x: 384
@@ -2215,12 +2215,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_153
+      name: Naked_153
       rect:
         serializedVersion: 2
         x: 448
@@ -2228,12 +2228,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_154
+      name: Naked_154
       rect:
         serializedVersion: 2
         x: 512
@@ -2241,12 +2241,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_155
+      name: Naked_155
       rect:
         serializedVersion: 2
         x: 576
@@ -2254,12 +2254,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_156
+      name: Naked_156
       rect:
         serializedVersion: 2
         x: 640
@@ -2267,12 +2267,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_157
+      name: Naked_157
       rect:
         serializedVersion: 2
         x: 704
@@ -2280,12 +2280,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_158
+      name: Naked_158
       rect:
         serializedVersion: 2
         x: 768
@@ -2293,12 +2293,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_159
+      name: Naked_159
       rect:
         serializedVersion: 2
         x: 0
@@ -2306,12 +2306,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_160
+      name: Naked_160
       rect:
         serializedVersion: 2
         x: 64
@@ -2319,12 +2319,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_161
+      name: Naked_161
       rect:
         serializedVersion: 2
         x: 128
@@ -2332,12 +2332,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_162
+      name: Naked_162
       rect:
         serializedVersion: 2
         x: 192
@@ -2345,12 +2345,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_163
+      name: Naked_163
       rect:
         serializedVersion: 2
         x: 256
@@ -2358,12 +2358,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_164
+      name: Naked_164
       rect:
         serializedVersion: 2
         x: 320
@@ -2371,12 +2371,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_165
+      name: Naked_165
       rect:
         serializedVersion: 2
         x: 384
@@ -2384,12 +2384,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_166
+      name: Naked_166
       rect:
         serializedVersion: 2
         x: 448
@@ -2397,12 +2397,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_167
+      name: Naked_167
       rect:
         serializedVersion: 2
         x: 512
@@ -2410,12 +2410,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_168
+      name: Naked_168
       rect:
         serializedVersion: 2
         x: 576
@@ -2423,12 +2423,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_169
+      name: Naked_169
       rect:
         serializedVersion: 2
         x: 640
@@ -2436,12 +2436,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_170
+      name: Naked_170
       rect:
         serializedVersion: 2
         x: 704
@@ -2449,12 +2449,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_171
+      name: Naked_171
       rect:
         serializedVersion: 2
         x: 768
@@ -2462,12 +2462,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_172
+      name: Naked_172
       rect:
         serializedVersion: 2
         x: 0
@@ -2475,12 +2475,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_173
+      name: Naked_173
       rect:
         serializedVersion: 2
         x: 64
@@ -2488,12 +2488,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_174
+      name: Naked_174
       rect:
         serializedVersion: 2
         x: 128
@@ -2501,12 +2501,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_175
+      name: Naked_175
       rect:
         serializedVersion: 2
         x: 192
@@ -2514,12 +2514,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_176
+      name: Naked_176
       rect:
         serializedVersion: 2
         x: 256
@@ -2527,12 +2527,12 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BizMan_177
+      name: Naked_177
       rect:
         serializedVersion: 2
         x: 320
@@ -2540,7 +2540,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
