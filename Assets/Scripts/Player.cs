@@ -2,7 +2,6 @@
 using System.Collections;
 using System;
 
-[RequireComponent(typeof(PlayerMovement))]
 public class Player : MonoBehaviour {
 
     public bool CanBeKilled = true;
@@ -12,6 +11,8 @@ public class Player : MonoBehaviour {
     private bool isNaked;
 
     private bool isGangster;
+
+    private GameObject _base;
     
     public bool Kill()
     {
@@ -32,6 +33,12 @@ public class Player : MonoBehaviour {
     {
         _anim = GetComponent<PlayerMovement>().Animator;
 
+        foreach (GameObject x in GetComponentsInChildren<GameObject>())
+        {
+            if (x.name == "base") {
+                _base = x;
+            }
+        }
         isNaked = false;
     }
 
@@ -44,8 +51,16 @@ public class Player : MonoBehaviour {
     {
         if (isNaked)
         {
-            switchSpriteSheet("Naked");
+            SpriteRenderer[] renderers = GetComponents<SpriteRenderer>();
+            switchSpriteSheet("Naked", renderers);
         }
+
+        UpdateWeaponsAndArmorSprites();
+    }
+
+    private void UpdateWeaponsAndArmorSprites()
+    {
+        
     }
 
     public void toggleNakedness()
@@ -53,11 +68,11 @@ public class Player : MonoBehaviour {
         isNaked = !isNaked;
     }
 
-    private void switchSpriteSheet(string spriteName)
+    private void switchSpriteSheet(string spriteName, SpriteRenderer[] rendererList)
     {
         Sprite[] sprites = Resources.LoadAll<Sprite>("Characters/Players/" + spriteName);
 
-        foreach (SpriteRenderer renderer in GetComponents<SpriteRenderer>())
+        foreach (SpriteRenderer renderer in rendererList)
         {
             Sprite newSprite = Array.Find(sprites, i => i.name == renderer.sprite.name);
 
