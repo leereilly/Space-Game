@@ -109,14 +109,14 @@ public class LayerPopup : PopupWindow
         // Reset render queue
         foreach (var c in _layers[index].Cells)
         {
-            if (c.renderer && c.renderer.sharedMaterial)
-                c.renderer.sharedMaterial.renderQueue += _layers[index].Layer;
+            if (c.GetComponent<Renderer>() && c.GetComponent<Renderer>().sharedMaterial)
+                c.GetComponent<Renderer>().sharedMaterial.renderQueue += _layers[index].Layer;
         }
 
         foreach (var c in _layers[index + shift].Cells)
         {
-            if (c.renderer && c.renderer.sharedMaterial)
-                c.renderer.sharedMaterial.renderQueue += _layers[index + shift].Layer;
+            if (c.GetComponent<Renderer>() && c.GetComponent<Renderer>().sharedMaterial)
+                c.GetComponent<Renderer>().sharedMaterial.renderQueue += _layers[index + shift].Layer;
         }
 
         _layers[index].Layer = _layers[index + shift].Layer;
@@ -125,14 +125,14 @@ public class LayerPopup : PopupWindow
         // Set render queue
         foreach (var c in _layers[index].Cells)
         {
-            if (c.renderer && c.renderer.sharedMaterial)
-                c.renderer.sharedMaterial.renderQueue -= _layers[index].Layer;
+            if (c.GetComponent<Renderer>() && c.GetComponent<Renderer>().sharedMaterial)
+                c.GetComponent<Renderer>().sharedMaterial.renderQueue -= _layers[index].Layer;
         }
 
         foreach (var c in _layers[index + shift].Cells)
         {
-            if (c.renderer && c.renderer.sharedMaterial)
-                c.renderer.sharedMaterial.renderQueue -= _layers[index + shift].Layer;
+            if (c.GetComponent<Renderer>() && c.GetComponent<Renderer>().sharedMaterial)
+                c.GetComponent<Renderer>().sharedMaterial.renderQueue -= _layers[index + shift].Layer;
         }
 
         _orderChange();

@@ -73,11 +73,11 @@ public sealed class DrawWindow : Section
         if (cameraGo == null)
         {
             cameraGo = EditorUtility.CreateGameObjectWithHideFlags("TilerCamera", (HideFlags)13, new[] { typeof(Camera) });
-            cameraGo.AddComponent("GUILayer");
-            cameraGo.AddComponent("FlareLayer");
-            cameraGo.AddComponent("HaloLayer");
+            cameraGo.AddComponent<GUILayer>();
+            cameraGo.AddComponent<FlareLayer>();
+            UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(cameraGo, "Assets/Tools/Tiler/Editor/Windows/Main/Draw/DrawWindow.cs (78,13)", "HaloLayer");
         }
-        _camera = cameraGo.camera;
+        _camera = cameraGo.GetComponent<Camera>();
         _camera.enabled = false;
         _height = Mathf.Log(16);
         _camera.transform.eulerAngles = new Vector3(90, 0, 0);
@@ -89,7 +89,7 @@ public sealed class DrawWindow : Section
 // ReSharper restore ConvertIfStatementToNullCoalescingExpression
             lightGo = EditorUtility.CreateGameObjectWithHideFlags("TilerLight", (HideFlags) 13, new[] {typeof (Light)});
 
-        _light = lightGo.light;
+        _light = lightGo.GetComponent<Light>();
         _light.type = LightType.Directional;
         _light.intensity = 0.5f;
         _light.enabled = false;
@@ -102,7 +102,7 @@ public sealed class DrawWindow : Section
         }
 
         
-        _text = textGo.guiText;
+        _text = textGo.GetComponent<GUIText>();
         _text.anchor = TextAnchor.UpperCenter;
         _text.alignment = TextAlignment.Center;
         //_text.font.material.color = Color.white;
@@ -216,8 +216,8 @@ public sealed class DrawWindow : Section
 
                 foreach (var cell in map.Cells)
                 {
-                    if (cell.renderer && cell.renderer.sharedMaterial)
-                        cell.renderer.sharedMaterial.renderQueue += l;
+                    if (cell.GetComponent<Renderer>() && cell.GetComponent<Renderer>().sharedMaterial)
+                        cell.GetComponent<Renderer>().sharedMaterial.renderQueue += l;
                 }
             }
 
@@ -235,8 +235,8 @@ public sealed class DrawWindow : Section
 
                 foreach (var cell in map.Cells)
                 {
-                    if (cell.renderer && cell.renderer.sharedMaterial)
-                        cell.renderer.sharedMaterial.renderQueue -= l;
+                    if (cell.GetComponent<Renderer>() && cell.GetComponent<Renderer>().sharedMaterial)
+                        cell.GetComponent<Renderer>().sharedMaterial.renderQueue -= l;
                 }
             }
         }
@@ -383,9 +383,9 @@ public sealed class DrawWindow : Section
 
                         foreach (Transform t in tileMap.transform)
                         {
-                            if (t.renderer)
+                            if (t.GetComponent<Renderer>())
                             {
-                                t.renderer.enabled = true;
+                                t.GetComponent<Renderer>().enabled = true;
                             }
                         }
                     }
@@ -918,8 +918,8 @@ public sealed class DrawWindow : Section
             if (cell == null) continue;
 
             var go = cell.gameObject;
-            if (!go.renderer) continue;
-            var mat = go.renderer.sharedMaterial;
+            if (!go.GetComponent<Renderer>()) continue;
+            var mat = go.GetComponent<Renderer>().sharedMaterial;
             if (!mat) continue;
 
             // Render queue doesn't serialize out so we save it seperately.
@@ -966,12 +966,12 @@ public sealed class DrawWindow : Section
                     var matAsset = (Material) AssetDatabase.LoadAssetAtPath(strippedPath + mat.name + ".mat", typeof (Material));
 
                     // Assign this new material/mesh to the go
-                    go.renderer.sharedMaterial = matAsset;
+                    go.GetComponent<Renderer>().sharedMaterial = matAsset;
                 }
             }
 
             // Always apply renderqueue update
-            go.renderer.sharedMaterial.renderQueue = renderQueue;
+            go.GetComponent<Renderer>().sharedMaterial.renderQueue = renderQueue;
         }
 
         var prefabMap = ((GameObject) prefab).GetComponent<TilerMap>();

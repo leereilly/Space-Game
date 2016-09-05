@@ -88,18 +88,18 @@ public class Cell : MonoBehaviour
     }
     public Texture2D GetTexture()
     {
-        if (!renderer) return null;
+        if (!GetComponent<Renderer>()) return null;
         
         Texture2D texture;
         if (Application.isPlaying)
         {
-            if (!renderer.material) return null;
-            texture = renderer.material.mainTexture as Texture2D;
+            if (!GetComponent<Renderer>().material) return null;
+            texture = GetComponent<Renderer>().material.mainTexture as Texture2D;
         }
         else
         {
-            if (!renderer.sharedMaterial) return null;
-            texture = renderer.sharedMaterial.mainTexture as Texture2D;
+            if (!GetComponent<Renderer>().sharedMaterial) return null;
+            texture = GetComponent<Renderer>().sharedMaterial.mainTexture as Texture2D;
         }
 
         return texture;

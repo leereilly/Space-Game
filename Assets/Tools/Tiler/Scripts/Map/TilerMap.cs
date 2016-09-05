@@ -201,7 +201,7 @@ public class TilerMap : MonoBehaviour
         {
             if (c != null)
             {
-                c.renderer.sharedMaterial.shader = s;
+                c.GetComponent<Renderer>().sharedMaterial.shader = s;
             }
         }
 
