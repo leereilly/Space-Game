@@ -20,11 +20,16 @@ public class ClothHood : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (!GetComponent<SpriteRenderer>().enabled)
+        {
+            return;
+        }
+        
         Player p = other.gameObject.GetComponent<Player>();
 
         if (p != null)
         {
-            p.SetPartSprite(PlayerPart.Head, "Items/Head/cloth_hood_male");
+            p.SetPartSprite(PlayerPart.Head, "Players/head/hoods/male/cloth_hood_male");
             GetComponent<SpriteRenderer>().enabled = false;
         }
     }
