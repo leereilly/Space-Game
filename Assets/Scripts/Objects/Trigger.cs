@@ -18,14 +18,6 @@ public class Trigger : MonoBehaviour, ITouchable {
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        foreach (GameObject obj in collider.gameObject.scene.GetRootGameObjects())
-        {
-            Player p = obj.GetComponent<Player>();
-            if (p!= null)
-            {
-                p.toggleNakedness();
-            }
-        }
         
     }
 }

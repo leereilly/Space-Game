@@ -1,45 +1,38 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System;
+using System.Collections.Generic;
 
+
+/// <summary>
+/// Names must match up exactly with part group names under Player prefab
+/// </summary>
+public enum PlayerPart
+{
+    Base,
+    Weapon,
+    SecondaryWeapon,
+    Head, // shoulders, knees, and toes.
+    Chest,
+    Legs, 
+    Feet
+}
+
+[RequireComponent(typeof (PlayerMovement))]
 public class Player : MonoBehaviour {
 
-    public bool CanBeKilled = true;
-
-    private Animator _anim;
-
-    private bool isNaked;
-
-    private bool isGangster;
-
-    private GameObject _base;
-    
-    public bool Kill()
-    {
-        if (!CanBeKilled)
-        {
-            return false;
-        }
-        if (_anim == null)
-        {
-            Start();
-        }
-        _anim.SetBool("isWalking", false);
-        _anim.SetBool("isDead", true);
-        return true;
-    }
+    private Dictionary<PlayerPart, PlayerSprite> _parts = new Dictionary<PlayerPart, PlayerSprite>();
 
     public void Start()
     {
-        _anim = GetComponent<PlayerMovement>().Animator;
+        SetupPlayerParts();
+    }
 
-        foreach (GameObject x in GetComponentsInChildren<GameObject>())
+    private void SetupPlayerParts()
+    {
+        foreach (PlayerPart p in Enum.GetValues(typeof(PlayerPart)))
         {
-            if (x.name == "base") {
-                _base = x;
-            }
+            _parts.Add(p, FindPlayerSpriteByName(p.ToString()));
         }
-        isNaked = false;
     }
 
     public void Update()
@@ -49,37 +42,76 @@ public class Player : MonoBehaviour {
 
     public void LateUpdate()
     {
-        if (isNaked)
-        {
-            SpriteRenderer[] renderers = GetComponents<SpriteRenderer>();
-            switchSpriteSheet("Naked", renderers);
-        }
-
-        UpdateWeaponsAndArmorSprites();
     }
 
-    private void UpdateWeaponsAndArmorSprites()
+    public void SetPartSprite(PlayerPart part, string spriteName)
     {
+        if (_parts.ContainsKey(part))
+        {
+            _parts[part].SpriteName = spriteName;
+        }
         
     }
 
-    public void toggleNakedness()
+    public void SetAnimatorFloat(string name, float value)
     {
-        isNaked = !isNaked;
+        foreach (PlayerSprite sprite in _parts.Values)
+        {
+            sprite.GetAnimator().SetFloat(name, value);
+        }
     }
 
-    private void switchSpriteSheet(string spriteName, SpriteRenderer[] rendererList)
+    public void SetAnimatorBool(string name, bool value)
     {
-        Sprite[] sprites = Resources.LoadAll<Sprite>("Characters/Players/" + spriteName);
-
-        foreach (SpriteRenderer renderer in rendererList)
+        foreach (PlayerSprite sprite in _parts.Values)
         {
-            Sprite newSprite = Array.Find(sprites, i => i.name == renderer.sprite.name);
+            sprite.GetAnimator().SetBool(name, value);
+        }
+    }
 
-            if (newSprite)
+    public PlayerSprite GetPlayerSprite(PlayerPart part)
+    {
+        if (_parts.ContainsKey(part))
+        {
+            return _parts[part];
+        }
+        return null;
+    }
+
+    public Animator GetAnimatorByPart(PlayerPart part)
+    {
+        PlayerSprite ps = GetPlayerSprite(part);
+
+        if (ps != null)
+        {
+            return ps.GetAnimator();
+        }
+
+        return null;
+    }
+
+    public SpriteRenderer GetRendererByPart(PlayerPart part)
+    {
+        PlayerSprite ps = GetPlayerSprite(part);
+
+        if (ps != null)
+        {
+            return ps.GetRenderer();
+        }
+
+        return null;
+    }
+    
+    private PlayerSprite FindPlayerSpriteByName(string findName)
+    {
+        foreach (PlayerSprite item in GetComponentsInChildren<PlayerSprite>())
+        {
+            if (item.name == findName)
             {
-                renderer.sprite = newSprite;
+                return item;
             }
         }
+
+        return null;
     }
 }

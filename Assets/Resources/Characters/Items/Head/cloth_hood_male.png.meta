@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: badd270624f989647964e84b6524dba3
-timeCreated: 1472887766
+timeCreated: 1473073494
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -65,41 +65,41 @@ TextureImporter:
     21300116: cloth_hood_male_58
     21300118: cloth_hood_male_59
     21300120: idleUp
-    21300122: cloth_hood_male_61
-    21300124: cloth_hood_male_62
-    21300126: cloth_hood_male_63
-    21300128: cloth_hood_male_64
-    21300130: cloth_hood_male_65
-    21300132: cloth_hood_male_66
-    21300134: cloth_hood_male_67
-    21300136: cloth_hood_male_68
+    21300122: walkUp0
+    21300124: walkUp1
+    21300126: walkUp2
+    21300128: walkUp3
+    21300130: walkUp4
+    21300132: walkUp5
+    21300134: walkUp6
+    21300136: walkUp7
     21300138: idleLeft
-    21300140: cloth_hood_male_70
-    21300142: cloth_hood_male_71
-    21300144: cloth_hood_male_72
-    21300146: cloth_hood_male_73
-    21300148: cloth_hood_male_74
-    21300150: cloth_hood_male_75
-    21300152: cloth_hood_male_76
-    21300154: cloth_hood_male_77
+    21300140: walkLeft0
+    21300142: walkLeft1
+    21300144: walkLeft2
+    21300146: walkLeft3
+    21300148: walkLeft4
+    21300150: walkLeft5
+    21300152: walkLeft6
+    21300154: walkLeft7
     21300156: idleDown
-    21300158: cloth_hood_male_79
-    21300160: cloth_hood_male_80
-    21300162: cloth_hood_male_81
-    21300164: cloth_hood_male_82
-    21300166: cloth_hood_male_83
-    21300168: cloth_hood_male_84
-    21300170: cloth_hood_male_85
-    21300172: cloth_hood_male_86
+    21300158: walkDown0
+    21300160: walkDown1
+    21300162: walkDown2
+    21300164: walkDown3
+    21300166: walkDown4
+    21300168: walkDown5
+    21300170: walkDown6
+    21300172: walkDown7
     21300174: idleRight
-    21300176: cloth_hood_male_88
-    21300178: cloth_hood_male_89
-    21300180: cloth_hood_male_90
-    21300182: cloth_hood_male_91
-    21300184: cloth_hood_male_92
-    21300186: cloth_hood_male_93
-    21300188: cloth_hood_male_94
-    21300190: cloth_hood_male_95
+    21300176: walkRight0
+    21300178: walkRight1
+    21300180: walkRight2
+    21300182: walkRight3
+    21300184: walkRight4
+    21300186: walkRight5
+    21300188: walkRight6
+    21300190: walkRight7
     21300192: cloth_hood_male_96
     21300194: cloth_hood_male_97
     21300196: cloth_hood_male_98
@@ -1024,7 +1024,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_61
+      name: walkUp0
       rect:
         serializedVersion: 2
         x: 64
@@ -1037,7 +1037,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_62
+      name: walkUp1
       rect:
         serializedVersion: 2
         x: 128
@@ -1050,7 +1050,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_63
+      name: walkUp2
       rect:
         serializedVersion: 2
         x: 192
@@ -1063,7 +1063,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_64
+      name: walkUp3
       rect:
         serializedVersion: 2
         x: 256
@@ -1076,7 +1076,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_65
+      name: walkUp4
       rect:
         serializedVersion: 2
         x: 320
@@ -1089,7 +1089,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_66
+      name: walkUp5
       rect:
         serializedVersion: 2
         x: 384
@@ -1102,7 +1102,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_67
+      name: walkUp6
       rect:
         serializedVersion: 2
         x: 448
@@ -1115,7 +1115,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_68
+      name: walkUp7
       rect:
         serializedVersion: 2
         x: 512
@@ -1141,7 +1141,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_70
+      name: walkLeft0
       rect:
         serializedVersion: 2
         x: 64
@@ -1154,7 +1154,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_71
+      name: walkLeft1
       rect:
         serializedVersion: 2
         x: 128
@@ -1167,7 +1167,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_72
+      name: walkLeft2
       rect:
         serializedVersion: 2
         x: 192
@@ -1180,7 +1180,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_73
+      name: walkLeft3
       rect:
         serializedVersion: 2
         x: 256
@@ -1193,7 +1193,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_74
+      name: walkLeft4
       rect:
         serializedVersion: 2
         x: 320
@@ -1206,7 +1206,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_75
+      name: walkLeft5
       rect:
         serializedVersion: 2
         x: 384
@@ -1219,7 +1219,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_76
+      name: walkLeft6
       rect:
         serializedVersion: 2
         x: 448
@@ -1232,7 +1232,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_77
+      name: walkLeft7
       rect:
         serializedVersion: 2
         x: 512
@@ -1258,7 +1258,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_79
+      name: walkDown0
       rect:
         serializedVersion: 2
         x: 64
@@ -1271,7 +1271,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_80
+      name: walkDown1
       rect:
         serializedVersion: 2
         x: 128
@@ -1284,7 +1284,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_81
+      name: walkDown2
       rect:
         serializedVersion: 2
         x: 192
@@ -1297,7 +1297,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_82
+      name: walkDown3
       rect:
         serializedVersion: 2
         x: 256
@@ -1310,7 +1310,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_83
+      name: walkDown4
       rect:
         serializedVersion: 2
         x: 320
@@ -1323,7 +1323,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_84
+      name: walkDown5
       rect:
         serializedVersion: 2
         x: 384
@@ -1336,7 +1336,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_85
+      name: walkDown6
       rect:
         serializedVersion: 2
         x: 448
@@ -1349,7 +1349,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_86
+      name: walkDown7
       rect:
         serializedVersion: 2
         x: 512
@@ -1375,7 +1375,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_88
+      name: walkRight0
       rect:
         serializedVersion: 2
         x: 64
@@ -1388,7 +1388,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_89
+      name: walkRight1
       rect:
         serializedVersion: 2
         x: 128
@@ -1401,7 +1401,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_90
+      name: walkRight2
       rect:
         serializedVersion: 2
         x: 192
@@ -1414,7 +1414,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_91
+      name: walkRight3
       rect:
         serializedVersion: 2
         x: 256
@@ -1427,7 +1427,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_92
+      name: walkRight4
       rect:
         serializedVersion: 2
         x: 320
@@ -1440,7 +1440,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_93
+      name: walkRight5
       rect:
         serializedVersion: 2
         x: 384
@@ -1453,7 +1453,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_94
+      name: walkRight6
       rect:
         serializedVersion: 2
         x: 448
@@ -1466,7 +1466,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cloth_hood_male_95
+      name: walkRight7
       rect:
         serializedVersion: 2
         x: 512
