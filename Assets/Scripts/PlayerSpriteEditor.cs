@@ -4,28 +4,18 @@ using System.Collections.Generic;
 
 public class PlayerSpriteEditor : EditorWindow  {
     
-    private Dictionary<string, string> map = new Dictionary<string, string>();
-
-    private string _spriteName;
+    private static Dictionary<string, string> map = new Dictionary<string, string>();
+    private static string _spriteName;
     
-    [MenuItem("Space-Game/Player Sprite Editor")]
-    public static void ShowPlayerSpriteEditor() 
+    
+    [MenuItem("Space-Game/Player Sprite Tools/Rename Player Sprite Parts")]
+    public static void ShowPlayerSpriteEditor()
     {
-        var window = GetWindow<PlayerSpriteEditor>();
+        Reset();
+        DoConvert();
     }
 
-    public void OnGUI()
-    {
-        GUILayout.Label("Change Player Sprite Names", EditorStyles.boldLabel);
-        
-
-        if (GUILayout.Button("Do it!"))
-        {
-            DoConvert();
-        }
-    }
-
-    public void DoConvert()
+    private static void DoConvert()
     {
         Object selectedObj = Selection.activeObject;
 
@@ -67,11 +57,17 @@ public class PlayerSpriteEditor : EditorWindow  {
 
         EditorUtility.SetDirty(ti);
         ti.SaveAndReimport();
+        Debug.Log("Looks like everything worked!");
     }
 
-    private void SetupMap()
+    private static void Reset()
     {
         map.Clear();
+        _spriteName = string.Empty;
+    }
+
+    private static void SetupMap()
+    {
         addMap("_60", "idleUp");
         addMap("_69", "idleLeft");
         addMap("_78", "idleDown");
@@ -83,7 +79,7 @@ public class PlayerSpriteEditor : EditorWindow  {
         addWalk("Right", 88, 95);
     }
 
-    private void addWalk(string direction, int start, int end)
+    private static void addWalk(string direction, int start, int end)
     {
         if (end < start)
         {
@@ -96,7 +92,7 @@ public class PlayerSpriteEditor : EditorWindow  {
         }
     }
 
-    private void addMap(string suffix, string newName)
+    private static void addMap(string suffix, string newName)
     {
         map.Add(string.Format("{0}{1}", _spriteName, suffix), newName);
     }
